@@ -1,0 +1,73 @@
+require_relative "../lib/my_list"
+
+describe MyList do
+  
+  before(:each) do
+    @list = MyList.new
+    @data = nil
+    @head = nil
+    @tail = nil
+  end
+
+constructing a list
+    is not a null list
+    has initial size of zero
+    is an empty list
+
+  pushing and popping elements from the list
+    has size after push
+    ?returns data after push?
+    returns data by index after multiple pushes                       
+    pushes list element to head of list
+    pushes element before nth element
+    pushes element after nth element
+    pops element (head) from list
+    pops tail from list
+    pops indexed element from list
+
+  deleting elements
+    deletes all elements in the list
+    deletes single element in single element list 
+    deletes the tail 
+    deletes indexed element in multi-element list
+
+  printing the list
+    prints empty list 
+    prints single-element list
+    prints multi-element list 
+    prints indexed element from multi-element list 
+
+    copying the list
+    copies the entire list 
+    copies a range of the original list into a new list
+    copies a list into an array
+    copies an array into a list
+
+  #checking bad input
+    #returns bad index error when asked to delete bad index 
+    #returns bad index error when asked to pop bad index 
+    #returns bad index error when asked to print bad index 
+    #returns empty list when asked to delete into empty list
+    #returns empty list when pop, pop_element(1), pop_head in size 1 list 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

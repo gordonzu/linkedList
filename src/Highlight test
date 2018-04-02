@@ -1,0 +1,464 @@
+ighlighting groups for various occasions
+-----------------------------------------
+SpecialKey	SpecialKey
+NonText	NonText
+Directory	Directory
+ErrorMsg	ErrorMsg
+IncSearch	IncSearch
+Search	Search
+MoreMsg	MoreMsg
+ModeMsg	ModeMsg
+LineNr	LineNr
+CursorLineNr	CursorLineNr
+Question	Question
+StatusLine	StatusLine
+StatusLineNC	StatusLineNC
+VertSplit	VertSplit
+Title	Title
+Visual	Visual
+VisualNOS	VisualNOS
+WarningMsg	WarningMsg vimWarn vimBufnrWarn
+WildMenu	WildMenu
+Folded	Folded vimFold
+FoldColumn	FoldColumn
+DiffAdd	DiffAdd
+DiffChange	DiffChange
+DiffDelete	DiffDelete
+DiffText	DiffText
+SignColumn	SignColumn
+Conceal	Conceal
+SpellBad	SpellBad
+SpellCap	SpellCap
+SpellRare	SpellRare
+SpellLocal	SpellLocal
+Pmenu	Pmenu
+PmenuSel	PmenuSel
+PmenuSbar	PmenuSbar
+PmenuThumb	PmenuThumb
+TabLine	TabLine
+TabLineSel	TabLineSel
+TabLineFill	TabLineFill
+CursorColumn	CursorColumn
+CursorLine	CursorLine
+ColorColumn	ColorColumn
+Cursor	Cursor
+
+Syntax highlighting groups
+--------------------------
+lCursor	lCursor
+MatchParen	MatchParen
+Normal	Normal vimSet vimSetEqual
+Comment	Comment vimComment vimMtchComment vimLineComment
+	luaComment vimScriptDelim perlComment perlDATA perlPOD
+	rubyRegexpComment rubyComment rubyDocumentation
+	rubyData pythonComment javaComment javaCommentStar
+	javaLineComment javaDocComment
+Constant	Constant String Character Number Boolean Float
+	vimNumber vimMark vimString vimSetString vimPatSepZone
+	vimNotPatSep vimStringCont vimSubstTwoBS vimMarkNumber
+	vimPlainMark vimAddress vimSynRegPat vimSynPatRange
+	vimSynNotPatRange vimHiGuiRgb vimSearch vimInsert
+	luaConstant luaString2 luaString luaNumber perlFloat
+	perlNumber perlString perlQQ perlVarSimpleMemberName
+	perlMatch perlSubstitutionGQQ perlSubstitutionSQ
+	perlTranslationGQ perlStringStartEnd perlVStringV
+	perlFormatField perlShellCommand perlStringUnexpanded
+	perlCharacter rubyString rubyASCIICode rubyInteger
+	rubyFloat rubySymbol rubyRegexp rubyNoInterpolation
+	rubyBoolean rubyPseudoVariable pythonString
+	pythonRawString pythonNumber javaBoolean javaConstant
+	javaNumber javaCharacter javaString javaComment2String
+	javaCommentString javaCommentCharacter
+Special	Special Tag SpecialChar Delimiter SpecialComment Debug
+	helpSpecial hsImportParams hsDelimTypeExport
+	vimRegister vimCmplxRepeat vimNotation vimCtrlChar
+	vimContinue vimParenSep vimSep vimFuncSID
+	vimUserAttrbCmpltFunc vimPatSep vimPatSepZ vimPatSepR
+	vimPatSepErr vimSubstSubstr vimSubstDelim vimSubstFlags
+	vimPlainRegister vimMapModKey vimBracket vimMapMod
+	vimMenuMod vimGroupSpecial luaSpecial perlSpecial
+	perlSpecialAscii perlSpecialDollar perlSpecialString
+	perlSpecialStringU perlSpecialMatch rubyStringEscape
+	rubyQuoteEscape rubyInterpolationDelimiter
+	rubyRegexpSpecial rubyRegexpCharClass rubyRegexpEscape
+	rubyRegexpQuantifier rubyRegexpAnchor rubyRegexpDot
+	rubyStringDelimiter rubySymbolDelimiter
+	rubyRegexpDelimiter rubyDataDirective pythonEscape
+	pythonDoctest vimSynOption vimSynContains
+	vimSynKeyContainedin vimSynNextgroup vimGroupAdd
+	vimGroupRem vimSynKeyOpt vimSynRegOpt vimSynMtchGrp
+	javaSpecial javaSpecialChar javaCommentTitle
+	javaDocTags htmlComment htmlCommentPart
+Identifier	Identifier Function vimVar vimFunc vimUserFunc diffLine
+	vimFuncName vimSpecFile vimFuncVar vimSpecFileMod
+	luaFunction luaFunc perlSubName perlIdentifier
+	perlVarNotInMatches perlVarSlash perlVarSimpleMember
+	perlMethod perlVarPlain2 perlFunctionName perlArrow
+	perlFiledescRead perlFiledescStatement perlFormatName
+	rubyFunction rubyIdentifier rubyPredefinedIdentifier
+	rubyInstanceVariable rubyClassVariable
+	rubyGlobalVariable rubyPredefinedVariable
+	rubyBlockParameter rubyPredefinedConstant
+	pythonFunction pythonBuiltin vimKeyCode javaVarArg
+	javaDocParam javaDocSeeTagParam javaFuncDef javaBraces
+Statement	Statement Conditional Repeat Label Operator Keyword
+	Exception diffAdded vimOper vimSetSep vimSearchDelim
+	luaCondElse luaCond luaStatement luaRepeat luaFor
+	luaLabel luaOperator perlConditional perlRepeat
+	perlOperator perlLabel perlFunction perlStatement
+	perlList perlMisc perlStatementStorage
+	perlStatementControl perlStatementScalar
+	perlStatementRegexp perlStatementNumeric
+	perlStatementList perlStatementHash perlStatementIOfunc
+	perlStatementVector perlStatementFiles
+	perlStatementFlow perlStatementInclude
+	perlStatementProc perlStatementSocket perlStatementIPC
+	perlStatementNetwork perlStatementPword
+	perlStatementTime perlStatementMisc
+	perlStatementIndirObj perlMatchStartEnd
+	perlStatementPackage rubyConditional rubyExceptional
+	rubyOperator rubyControl rubyKeyword rubyBeginEnd
+	rubyConditionalModifier rubyRepeat rubyOptionalDo
+	rubyRepeatModifier rubyAccess rubyAttribute rubyEval
+	rubyException rubyPseudoOperator pythonStatement
+	pythonConditional pythonRepeat pythonOperator
+	pythonException vimKeyword vimStatement javaConditional
+	javaRepeat javaOperator javaStatement javaExceptions
+	javaAssert javaBranch javaLabel javaUserLabel
+	javaUserLabelRef
+PreProc	PreProc Include Define Macro PreCondit vimOption
+	vimUserAttrbKey vimEnvvar vimSetMod vimMenuName
+	vimMenuNameMore vimHiAttrib vimFgBgAttrib
+	vimCommentTitle perlControl perlSubAttributes
+	perlSubAttributesCont perlSharpBang perlInclude
+	rubyInclude rubySharpBang pythonInclude pythonDecorator
+	pythonDoctestValue vimAutoCmdOpt vimHLMod javaExternal
+	javaAnnotation
+Type	Type StorageClass Structure Typedef vimAutoEvent
+	vimPattern vimSynCase vimSynReg vimSyncC vimSyncKey
+	vimSyncNone vimHiTerm vimHiCTerm vimHiStartStop
+	vimHiCtermFgBg vimHiGui vimHiGuiFont vimHiGuiFgBg
+	luaTable perlSubPrototype perlType perlStorageClass
+	perlPackageRef perlPackageDecl perlFunctionPRef
+	rubyConstant pythonExceptions vimSpecial vimUserAttrb
+	vimUserAttrbCmplt javaTypedef javaType javaStorageClass
+	javaMethodDecl javaClassDecl javaScopeDecl
+Underlined	Underlined
+Ignore	Ignore
+Error	Error vimOperError vimUserCmdError vimElseIfErr
+	vimSynError vimSyncError luaParenError luaError
+	perlElseIfError perlNotEmptyLine perlSubError
+	perlSubPrototypeError rubyInvalidVariable rubyError
+	rubySpaceError vimError vimKeyCodeError vimErrSetting
+	vimBehaveError vimFTError vimFunctionError
+	vimSubstFlagErr vimCollClassErr vimMapModErr
+	vimSynCaseError vimHiCtermError vimHiAttribList
+	vimHiKeyError vimEmbedError javaError javaError2
+	javaSpecialError javaSpecialCharError javaStringError
+	javaParenError javaSpaceError
+Todo	Todo vimTodo luaTodo perlTodo rubyTodo pythonTodo
+	javaTodo
+vimCommentString	vimCommentString
+vimCommand	vimCommand vimAutoCmd vimLet vimMap vimSyntax vimBehave
+	vimBehaveModel vimFTCmd vimNotFunc vimSubst
+	vimAugroupKey vimFuncKey vimAbb vimEchoHL vimHighlight
+	vimNorm vimUserCommand vimSubst1 vimMapBang vimUnmap
+	vimHiClear vimAuHighlight vimAutoSet vimCondHL vimElseif
+vimCmdSep	vimCmdSep
+helpExample	helpExample
+helpOption	helpOption
+helpNote	helpNote
+helpVim	helpVim
+helpHyperTextJump	helpHyperTextJump
+helpHyperTextEntry	helpHyperTextEntry
+vimIsCommand	vimIsCommand
+vimSynMtchOpt	vimSynMtchOpt
+vimSynType	vimSynType vimFTOption
+vimHiLink	vimHiLink
+vimHiGroup	vimHiGroup
+vimGroup	vimGroup vimHLGroup vimEchoHLNone vimGroupName
+	vimSyncGroupName vimSyncGroup
+gitcommitComment	gitcommitComment gitcommitUntracked gitcommitDiscarded
+	gitcommitSelected
+gitcommitUnmerged	gitcommitUnmerged
+gitcommitOnBranch	gitcommitOnBranch
+gitcommitBranch	gitcommitBranch gitcommitNoBranch
+gitcommitDiscardedType	gitcommitDiscardedType
+gitcommitSelectedType	gitcommitSelectedType
+gitcommitHeader	gitcommitHeader
+gitcommitUntrackedFile	gitcommitUntrackedFile
+gitcommitDiscardedFile	gitcommitDiscardedFile gitcommitDiscardedArrow
+gitcommitSelectedFile	gitcommitSelectedFile gitcommitSelectedArrow
+gitcommitUnmergedFile	gitcommitUnmergedFile gitcommitUnmergedArrow
+gitcommitFile	gitcommitFile
+htmlTag	htmlTag
+htmlEndTag	htmlEndTag
+htmlTagN	htmlTagN
+htmlTagName	htmlTagName
+htmlSpecialTagName	htmlSpecialTagName
+htmlArg	htmlArg
+javaScript	javaScript
+perlHereDoc	perlHereDoc
+perlVarPlain	perlVarPlain
+perlStatementFileDesc	perlStatementFileDesc
+texStatement	texStatement
+texMathZoneX	texMathZoneX
+texMathMatcher	texMathMatcher
+texRefLabel	texRefLabel
+rubyDefine	rubyDefine rubyMethodExceptional rubyClass rubyModule
+cPreCondit	cPreCondit
+VarId	VarId
+ConId	ConId
+hsImport	hsImport
+hsString	hsString
+hsStructure	hsStructure
+hs_hlFunctionName	hs_hlFunctionName
+hsStatement	hsStatement
+hsImportLabel	hsImportLabel
+hs_OpFunctionName	hs_OpFunctionName
+hs_DeclareFunction	hs_DeclareFunction
+hsVarSym	hsVarSym
+hsType	hsType
+hsTypedef	hsTypedef
+hsModuleName	hsModuleName
+hsModuleStartLabel	hsModuleStartLabel hsModuleWhereLabel
+hsNiceOperator	hsNiceOperator
+pandocTitleBlock	pandocTitleBlock
+pandocTitleBlockTitle	pandocTitleBlockTitle
+pandocTitleComment	pandocTitleComment
+pandocComment	pandocComment
+pandocVerbatimBlock	pandocVerbatimBlock pandocVerbatimBlockDeep
+	pandocCodeBlock pandocCodeBlockDelim
+pandocBlockQuote	pandocBlockQuote
+pandocBlockQuoteLeader1	pandocBlockQuoteLeader1
+pandocBlockQuoteLeader2	pandocBlockQuoteLeader2
+pandocBlockQuoteLeader3	pandocBlockQuoteLeader3
+pandocBlockQuoteLeader4	pandocBlockQuoteLeader4
+pandocBlockQuoteLeader5	pandocBlockQuoteLeader5
+pandocBlockQuoteLeader6	pandocBlockQuoteLeader6
+pandocListMarker	pandocListMarker
+pandocListReference	pandocListReference
+pandocDefinitionBlock	pandocDefinitionBlock
+pandocDefinitionTerm	pandocDefinitionTerm
+pandocDefinitionIndctr	pandocDefinitionIndctr
+pandocEmphasisDefinition	pandocEmphasisDefinition
+pandocEmphasisNestedDefinition	pandocEmphasisNestedDefinition
+pandocStrongEmphasisDefinition	pandocStrongEmphasisDefinition
+pandocStrongEmphasisNestedDefinition	pandocStrongEmphasisNestedDefinition
+pandocStrongEmphasisEmphasisDefinition	pandocStrongEmphasisEmphasisDefinition
+pandocStrikeoutDefinition	pandocStrikeoutDefinition
+pandocVerbatimInlineDefinition	pandocVerbatimInlineDefinition
+pandocSuperscriptDefinition	pandocSuperscriptDefinition
+pandocSubscriptDefinition	pandocSubscriptDefinition
+pandocTable	pandocTable
+pandocTableStructure	pandocTableStructure
+pandocTableStructre	pandocTableStructre pandocTableStructureTop
+	pandocTableStructureEnd
+pandocTableZebraLight	pandocTableZebraLight
+pandocTableZebraDark	pandocTableZebraDark
+pandocEmphasisTable	pandocEmphasisTable
+pandocEmphasisNestedTable	pandocEmphasisNestedTable
+pandocStrongEmphasisTable	pandocStrongEmphasisTable
+pandocStrongEmphasisNestedTable	pandocStrongEmphasisNestedTable
+pandocStrongEmphasisEmphasisTable	pandocStrongEmphasisEmphasisTable
+pandocStrikeoutTable	pandocStrikeoutTable
+pandocVerbatimInlineTable	pandocVerbatimInlineTable
+pandocSuperscriptTable	pandocSuperscriptTable
+pandocSubscriptTable	pandocSubscriptTable
+pandocHeading	pandocHeading
+pandocHeadingMarker	pandocHeadingMarker
+pandocEmphasisHeading	pandocEmphasisHeading
+pandocEmphasisNestedHeading	pandocEmphasisNestedHeading
+pandocStrongEmphasisHeading	pandocStrongEmphasisHeading
+pandocStrongEmphasisNestedHeading	pandocStrongEmphasisNestedHeading
+pandocStrongEmphasisEmphasisHeading	pandocStrongEmphasisEmphasisHeading
+pandocStrikeoutHeading	pandocStrikeoutHeading
+pandocVerbatimInlineHeading	pandocVerbatimInlineHeading
+pandocSuperscriptHeading	pandocSuperscriptHeading
+pandocSubscriptHeading	pandocSubscriptHeading
+pandocLinkDelim	pandocLinkDelim
+pandocLinkLabel	pandocLinkLabel
+pandocLinkText	pandocLinkText
+pandocLinkURL	pandocLinkURL
+pandocLinkTitle	pandocLinkTitle
+pandocLinkTitleDelim	pandocLinkTitleDelim
+pandocLinkDefinition	pandocLinkDefinition
+pandocLinkDefinitionID	pandocLinkDefinitionID
+pandocImageCaption	pandocImageCaption
+pandocFootnoteLink	pandocFootnoteLink
+pandocFootnoteDefLink	pandocFootnoteDefLink
+pandocFootnoteInline	pandocFootnoteInline
+pandocFootnote	pandocFootnote
+pandocCitationDelim	pandocCitationDelim
+pandocCitation	pandocCitation
+pandocCitationID	pandocCitationID
+pandocCitationRef	pandocCitationRef
+pandocStyleDelim	pandocStyleDelim
+pandocEmphasis	pandocEmphasis
+pandocEmphasisNested	pandocEmphasisNested
+pandocStrongEmphasis	pandocStrongEmphasis
+pandocStrongEmphasisNested	pandocStrongEmphasisNested
+pandocStrongEmphasisEmphasis	pandocStrongEmphasisEmphasis
+pandocStrikeout	pandocStrikeout
+pandocVerbatimInline	pandocVerbatimInline
+pandocSuperscript	pandocSuperscript
+pandocSubscript	pandocSubscript
+pandocRule	pandocRule
+pandocRuleLine	pandocRuleLine
+pandocEscapePair	pandocEscapePair pandocEscapedCharacter pandocLineBreak
+pandocNonBreakingSpace	pandocNonBreakingSpace
+pandocMetadataDelim	pandocMetadataDelim
+pandocMetadata	pandocMetadata pandocMetadataTitle
+pandocMetadataKey	pandocMetadataKey
+EasyMotionTargetDefault	EasyMotionTargetDefault EasyMotionTarget
+EasyMotionShadeDefault	EasyMotionShadeDefault EasyMotionShade
+vimExtCmd	vimExtCmd
+vimFilter	vimFilter
+vimUserCmd	vimUserCmd
+vimFBVar	vimFBVar
+vimFiletype	vimFiletype
+vimExecute	vimExecute
+vimFunction	vimFunction
+vimOperParen	vimOperParen
+vimRegion	vimRegion
+vimSynLine	vimSynLine
+vimAugroup	vimAugroup
+vimAugroupError	vimAugroupError
+vimEcho	vimEcho
+vimIf	vimIf
+vimFuncBody	vimFuncBody
+vimFuncBlank	vimFuncBlank
+vimEscapeBrace	vimEscapeBrace
+vimSubstRep	vimSubstRep
+vimSubstRange	vimSubstRange
+vimPatRegion	vimPatRegion
+vimCollection	vimCollection
+vimSubstPat	vimSubstPat
+vimSubstRep4	vimSubstRep4
+vimCollClass	vimCollClass
+vimMapLhs	vimMapLhs
+vimAutoCmdSpace	vimAutoCmdSpace
+vimAutoEventList	vimAutoEventList
+vimAutoCmdSfxList	vimAutoCmdSfxList
+vimMapRhs	vimMapRhs
+vimMapRhsExtend	vimMapRhsExtend
+vimMenuBang	vimMenuBang
+vimMenuPriority	vimMenuPriority
+vimMenuMap	vimMenuMap
+vimMenuRhs	vimMenuRhs
+vimNormCmds	vimNormCmds
+vimGroupList	vimGroupList
+vimAuSyntax	vimAuSyntax
+vimClusterName	vimClusterName
+vimSynKeyRegion	vimSynKeyRegion
+vimSynMatchRegion	vimSynMatchRegion
+VimSynMtchCchar	VimSynMtchCchar
+vimSynMtchGroup	vimSynMtchGroup
+vimSynRegion	vimSynRegion
+vimSynPatMod	vimSynPatMod
+vimSyncLines	vimSyncLines
+vimSyncMatch	vimSyncMatch
+vimSyncLinebreak	vimSyncLinebreak
+vimSyncLinecont	vimSyncLinecont
+vimSyncRegion	vimSyncRegion
+vimHiKeyList	vimHiKeyList
+vimHiBang	vimHiBang
+vimHiCtermColor	vimHiCtermColor
+vimHiFontname	vimHiFontname
+vimHiGuiFontname	vimHiGuiFontname
+vimHiTermcap	vimHiTermcap
+vimCommentTitleLeader	vimCommentTitleLeader
+vimGlobal	vimGlobal
+luaInnerComment	luaInnerComment
+luaParen	luaParen
+luaFunctionBlock	luaFunctionBlock
+luaCondEnd	luaCondEnd
+luaCondElseif	luaCondElseif
+luaCondStart	luaCondStart
+luaBlock	luaBlock
+luaRepeatBlock	luaRepeatBlock
+luaWhile	luaWhile
+luaTableBlock	luaTableBlock
+vimLuaRegion	vimLuaRegion
+perlGenericBlock	perlGenericBlock
+perlFiledescStatementNocomma	perlFiledescStatementNocomma
+perlFiledescStatementComma	perlFiledescStatementComma
+perlStatementIndirObjWrap	perlStatementIndirObjWrap
+perlVarMember	perlVarMember
+perlVarBlock	perlVarBlock
+perlVarBlock2	perlVarBlock2
+perlPackageConst	perlPackageConst
+NONE	NONE
+perlSpecialStringU2	perlSpecialStringU2
+perlParensSQ	perlParensSQ
+perlBracketsSQ	perlBracketsSQ
+perlBracesSQ	perlBracesSQ
+perlAnglesSQ	perlAnglesSQ
+perlParensDQ	perlParensDQ
+perlBracketsDQ	perlBracketsDQ
+perlBracesDQ	perlBracesDQ
+perlAnglesDQ	perlAnglesDQ
+perlAutoload	perlAutoload
+perlFormat	perlFormat
+perlSync	perlSync
+perlSyncPOD	perlSyncPOD
+vimPerlRegion	vimPerlRegion
+rubyInterpolation	rubyInterpolation
+rubyDelimEscape	rubyDelimEscape
+rubyNestedParentheses	rubyNestedParentheses
+rubyNestedCurlyBraces	rubyNestedCurlyBraces
+rubyNestedAngleBrackets	rubyNestedAngleBrackets
+rubyNestedSquareBrackets	rubyNestedSquareBrackets
+rubyRegexpParens	rubyRegexpParens
+rubyRegexpBrackets	rubyRegexpBrackets
+rubyLocalVariableOrMethod	rubyLocalVariableOrMethod
+rubyBlockArgument	rubyBlockArgument
+rubyBlockParameterList	rubyBlockParameterList
+rubyHeredocStart	rubyHeredocStart
+rubyAliasDeclaration2	rubyAliasDeclaration2
+rubyAliasDeclaration	rubyAliasDeclaration
+rubyMethodDeclaration	rubyMethodDeclaration
+rubyClassDeclaration	rubyClassDeclaration
+rubyModuleDeclaration	rubyModuleDeclaration
+rubyMethodBlock	rubyMethodBlock
+rubyBlock	rubyBlock
+rubyDoBlock	rubyDoBlock
+rubyCurlyBlock	rubyCurlyBlock
+rubyArrayDelimiter	rubyArrayDelimiter
+rubyArrayLiteral	rubyArrayLiteral
+rubyBlockExpression	rubyBlockExpression
+rubyCaseExpression	rubyCaseExpression
+rubyConditionalExpression	rubyConditionalExpression
+rubyOptionalDoLine	rubyOptionalDoLine
+rubyRepeatExpression	rubyRepeatExpression
+rubyMultilineComment	rubyMultilineComment
+rubyKeywordAsMethod	rubyKeywordAsMethod
+vimRubyRegion	vimRubyRegion
+pythonSpaceError	pythonSpaceError
+pythonSync	pythonSync
+vimPythonRegion	vimPythonRegion
+vimAugroupSyncA	vimAugroupSyncA
+javaFold	javaFold
+javaOK	javaOK
+javaR_JavaLang	javaR_JavaLang
+javaC_JavaLang	javaC_JavaLang
+javaE_JavaLang	javaE_JavaLang
+javaX_JavaLang	javaX_JavaLang
+javaLangObject	javaLangObject
+javaLabelRegion	javaLabelRegion
+javaDocSeeTag	javaDocSeeTag
+javaDebugSpecial	javaDebugSpecial
+javaDebugBoolean	javaDebugBoolean
+javaDebugType	javaDebugType
+javaDebugParen	javaDebugParen
+javaParen	javaParen
+javaParenT1	javaParenT1
+javaParenT	javaParenT
+javaParen1	javaParen1
+javaParenT2	javaParenT2
+javaParen2	javaParen2
+links	links
+	                   
+		   	links to Cursor
+	                   
+		   	links to hsStructure
